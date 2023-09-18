@@ -1,0 +1,146 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: end !important;
+}
+.nav-link{
+  font-size: 19px;;
+}
+}
+
+a{
+  color:white !important;
+}
+.top-row{
+  background-color:#3b3b3b;
+}
+
+.top-row-link{
+  color:red !important;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.firstbanner{
+  position: relative;
+
+}
+.banner-text{
+  position: absolute;
+  color:white;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+
+}
+.banner-text h1{
+
+font-weight:bolder;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+  .top-row{
+    background-color:#3b3b3b;
+  }
+  
+  .top-row-link{
+    color:red !important;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .firstbanner{
+    position: relative;
+  
+  }
+  .banner-text{
+    position: absolute;
+    color:white;
+    top:18%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  
+  
+  }
+  .banner-text h1{
+  
+  font-weight:bolder;
+  font-size: 14px;
+  }
+  .navbar-toggler {
+    background: white;
+  }
+
+  .first-row-firstImg{
+    height: auto !important;
+  
+  }
+  .mobbdrRadius{
+    border-radius: 1rem !important;
+  }
+  h4{
+    font-size: 14px;
+  }
+}
+.mobbdrRadius{
+  border-radius: 2rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 3rem;
+
+}
+.imgcard1{
+  border-radius:20px;
+  border: 2px solid white;
+  height: 100%;
+  width: 100%;
+}
+.right-arrow{
+  border-radius: 50%;
+  background: red;
+  width: 41px;
+  stroke: white;
+  text-align: right;
+}  
+.imgcard2{
+  border-radius:20px;
+  border: 2px solid white;
+  height: 50%;
+  width: 100%;
+}
+.white-bg-right-arrow{
+  border-radius: 50%;
+  background: white;
+  width: 41px;
+  stroke: red;
+  text-align: right;
+
+}
+.white-bg-right-arrow-2{
+  border-radius: 50%;
+  background: white;
+  width: 19px;
+  stroke: rgb(255, 0, 0);
+  text-align: right;
+
+}
+
+.react-multiple-carousel__arrow--left{
+  display: none !important;
+}
+.react-multiple-carousel__arrow {
+  background-color: red !important;
+
+}
+.react-multiple-carousel__arrow--right::before {
+ 
+  font-weight: bolder;
+}
+.react-multiple-carousel__arrow--right{
+  bottom:5%;
+}
